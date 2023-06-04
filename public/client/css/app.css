@@ -1,0 +1,47 @@
+:root {
+    --background: #198754;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
+    color: #3eb9fc;
+}
+#hero,#footer {
+    background: var(--background);
+}
+#header.header-scrolled {
+    background: #125f3be9;
+}
+.dropdown-item i {
+    font-size: 20px !important;
+    margin-right: 10px !important;
+}
+.error {
+    display: none;
+}
+.error.error-show {
+    display: block;
+}
+.btn-block {
+    width: 100%;
+}
+.social-links a {
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-links a {
+    padding: 10px;
+    border-radius: 50%;
+}
+.auth-title {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+#profile-overview .label {
+    color: #37517e;
+    font-weight: bold;
+}
+.custom-input {
+    width: auto!important;
+    display: inline!important;
+  }

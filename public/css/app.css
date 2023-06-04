@@ -1,0 +1,73 @@
+html {
+  overflow-x: hidden;
+}
+#external-events .fc-event-main {
+    cursor: move;
+    padding: 3px;
+}
+#calendar a{
+  color: var(--dark-color);
+}
+.img-set-wh {
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* .carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+} */
+.football-pitch-hover:hover .card-title,.football-pitch-hover:active .card-title {
+  color: green;
+  transition: color 1s;
+}
+.slider img {
+  max-height: 40vh;
+  object-fit: cover;
+}
+.row-nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.slider-item {
+  margin: 0 5px;
+}
+.text-running {
+  color: var(--fc-bg-event-color);
+}
+.btn-block {
+  width: 100%;
+}
+/*  */
+/* @media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+} */
